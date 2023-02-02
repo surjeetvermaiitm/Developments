@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: scroll;
   font-family: "Poppins", sans-serif;
 }
 body {
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
   background-color: #edf1fd;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -160,5 +161,9 @@ footer ul li a i:hover {
   .footer {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: 6.5rem;
+  }
+  body {
+    height: 200vh;
   }
 }
