@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: scroll;
   font-family: "Poppins", sans-serif;
 }
 body {
@@ -164,6 +163,6 @@ footer ul li a i:hover {
     margin-left: 6.5rem;
   }
   body {
-    height: 200vh;
+    height: 140vh;
   }
 }
